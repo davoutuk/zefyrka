@@ -30,7 +30,7 @@ int getPositionDelta(Delta user, Delta actual) {
       }
       diff += actualOp.length;
     } else {
-      // TODO: this likely needs to cover more edge cases.
+      print('this scenario is not coded');
     }
   }
   return diff;
